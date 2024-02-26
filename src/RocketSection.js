@@ -5,7 +5,7 @@ import sslv from './Img/sslv2.png';
 
 const RocketSection = () => {
   return (
-    <div>
+    <>
        <section id="rockets" className="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6">
       <h2 className="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
         Our Rockets
@@ -52,7 +52,7 @@ const RocketSection = () => {
         </li>
       </ul>
     </section>
-    </div>
+    </>
   )
 }
 
